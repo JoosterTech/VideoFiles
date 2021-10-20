@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JoosterTech/VideoFiles#readme",
   "dependencies": {
+    "video.js": "^7.15.4",
     "videojs-vr": "^1.10.0"
   }
 }

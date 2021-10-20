@@ -1,0 +1,22 @@
+{
+  "name": "videofiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hide-on-play.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoosterTech/VideoFiles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoosterTech/VideoFiles/issues"
+  },
+  "homepage": "https://github.com/JoosterTech/VideoFiles#readme",
+  "dependencies": {
+    "videojs-vr": "^1.10.0"
+  }
+}

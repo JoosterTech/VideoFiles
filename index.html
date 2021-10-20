@@ -40,12 +40,7 @@
         </a-camera>
     </a-scene>
     <script>
-        if (document.webkitFullscreenElement) {
-            document.webkitCancelFullScreen();
-        } else {
-            const el = document.documentElement;
-            el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-        }
+        setTimeout(function () { window.scrollTo(0, 1); }, 1000);
     </script>
 </body>
 

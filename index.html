@@ -14,6 +14,7 @@
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="play-on-click.js"></script>
     <script src="hide-on-play.js"></script>
+
 </head>
 
 <body>
@@ -38,6 +39,14 @@
             </a-entity>
         </a-camera>
     </a-scene>
+    <script>
+        if (document.webkitFullscreenElement) {
+            document.webkitCancelFullScreen();
+        } else {
+            const el = document.documentElement;
+            el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+        }
+    </script>
 </body>
 
 </html>
